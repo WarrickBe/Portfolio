@@ -1,0 +1,19 @@
+/* A propos */
+.propos {
+    font-family: 'DK Cool Crayon', sans-serif;
+    text-align: center;
+}
+
+.titre-propos{
+    font-size: 50px;
+}
+
+.bio{
+    font-size: 15px;
+}
+
+/* Social */
+.social {
+    font-family: 'DK Cool Crayon', sans-serif;
+    text-align: center;
+}
