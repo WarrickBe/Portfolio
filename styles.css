@@ -1,19 +1,75 @@
-/* A propos */
-.propos {
-    font-family: 'DK Cool Crayon', sans-serif;
-    text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-.titre-propos{
+a{
+    overflow:  hidden;
+    text-decoration: none;
+}
+
+/*START NAVBAR*/
+
+.logo{
+    font-size: 2em;
+    padding: 1%;
+    position: absolute;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.navbar ul {
+    padding: 3%;
+}
+
+.navbar{
+ background-color: aqua;   
+}
+
+.nav-link{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px   ;
+}
+/* END NAVBAR*/
+
+/* START ACCEUIL*/
+
+.container-acceuil{
+background-color: beige;
+height: 500px;
+width: 100%;
+}
+
+.introduction{
+    text-align: center;
     font-size: 50px;
+    padding: 100px;
+
 }
 
-.bio{
-    font-size: 15px;
-}
-
-/* Social */
-.social {
-    font-family: 'DK Cool Crayon', sans-serif;
+.remarque{
+    font-size: 25px;
+    color: blueviolet;
     text-align: center;
+}
+
+.project-grid{
+    display: grid;
+    
+}
+
+img{
+    height: 10px;
+    width: 10px;
+    display: block;
 }
