@@ -12,6 +12,8 @@
     --color-navbar:#373F51;
     --color-first-section: #57799E;
     --color-second-section: #58A4B0;
+    --color-tile-project: #373F51;
+    --color-footer: #373F51;
 }
 
 li{
@@ -22,7 +24,7 @@ a{
     text-decoration: none;
 }
 
-p,h1,h2,a{
+p,h1,h2,a,label,div{
     color: var(--color-text);
 }
 
@@ -64,14 +66,16 @@ p,h1,h2,a{
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
-    backgr
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .home-introduction{
   font-size: 50px;
   position: relative;   
   text-align: center;
-  top: 40%
+  top: 40%;
+  text-shadow: 0px 4px 1px var(--color-border);
 }
 
 .home-note{
@@ -79,6 +83,7 @@ p,h1,h2,a{
     top: 50%;
     text-align: center;
     font-size: 25px;
+    text-shadow: 0px 4px 1px var(--color-border);
 }
 
 /* END HOME */
@@ -105,34 +110,76 @@ p,h1,h2,a{
     box-shadow: 4px 0px 10px var(--color-border);
 }
 
-img{
+#Project img{
     background-color: black;
     max-height: 300px;
     aspect-ratio: 1 / 1;
     transition: 1s;
     border-radius: 10px;
+    margin: 15px;
 }
 
-img:hover{
+#Porject img:hover{
     transform: scale(1.10);
     border-radius: 15px;
 }
 
+.tile-project{
+    background-color: var(--color-tile-project);
+    position:relative;
+    text-align: center;
+    border-radius: 5%;
+    margin: 30px;
+}
 /* END PROJET*/
 
+/* START CONTACT */
+
+.user-info{
+    display: ineline;
+
+}
+
 #Contact{
-    max-height: 200px;
-    max-width: 100%;
-    display: flex;
-    background-color: blue;
+    width: 100%;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://static.vitrine.ynov.com/var/site/storage/images/4/0/9/1/31904-1-fre-FR/1026a2665af8-metier-developpeur-web-ynov.jpg);
 }
 
-img #Contact{
-    width: 50px;
-    height: 50px;
+.container-contact{
+    width: 50%;
+    align-items: center;
+    height: 100px;
+    background-color: aliceblue;
 }
 
-.title{
+.container-contact{
+}
+
+.container-contact{display: none;}
+
+/* END CONTACT */
+
+/* START FOOTER */
+
+footer{
     text-align: center;
+    display: flex;
+    background-color: var(--color-footer);
+    justify-content: center;
+    border-top: 2px solid black;
+    box-shadow: 4px 0px 10px var(--color-border);
+}  
+
+
+footer img{
+    width: 25px;
+    height: 25px;
 }
 
+
+
+/* END FOOTER */
