@@ -149,17 +149,24 @@ p,h1,h2,a,label,div{
     background-image: url(https://static.vitrine.ynov.com/var/site/storage/images/4/0/9/1/31904-1-fre-FR/1026a2665af8-metier-developpeur-web-ynov.jpg);
 }
 
-.container-contact{
-    width: 50%;
-    align-items: center;
-    height: 100px;
-    background-color: aliceblue;
+.title-contact, .user-info{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
-.container-contact{
+.input-user-contact{
+    height: 20px;
+    border: var(--color-border);
+    border-radius: 1px;
 }
 
-.container-contact{display: none;}
+.title-contact{
+    font-size: 25px;
+    border-radius: 0px 15px 2;
+    text-shadow: 2px 2px var(--color-border)
+}
+
 
 /* END CONTACT */
 
@@ -174,6 +181,10 @@ footer{
     box-shadow: 4px 0px 10px var(--color-border);
 }  
 
+.submit{
+    margin-left: 10px;
+
+}
 
 footer img{
     width: 25px;
